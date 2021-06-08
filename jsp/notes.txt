@@ -1,0 +1,45 @@
+JSP: JSP Stand for Java Server Pages.
+Jsp remove lot of boilerplat code.
+Jsp can perform dynamic result or static result.
+Jsp provide scripting tag for executing dynamic result.
+There are three type of scripting tag:
+1. <%%> scripting tag-> every thing goes in service method every thing local.
+2. <%!%> declartion tag.
+3. <%=%> expression tag.
+In Jsp we can call external css or js also.
+In Jsp we dont need to overide any method like (get(),post(), service() etc.).
+Jsp code internally translate to servlet then compile.
+
+we cannot declare static method in scripting tag only declare final.
+
+Jsp provide 9 implicit object:
+1.request
+2.out
+3.response
+4.config
+5.application
+6.session
+7.exception
+8.page
+9.pageContext
+
+//exception object is not available by default.
+//these 9 object use only in scripting tag and expression tag;
+//nested tag not allowed.
+
+Jsp provide directive tag to perform different kind of task.
+1.page
+2.include
+3.taglib
+
+In jsp session is true by default.
+
+drawback:
+jsp is slow
+jsp in not secure
+
+use in mvc pattern for view rendering
+action tag
+expression tag
+
+jstl 
